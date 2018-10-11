@@ -21,3 +21,4 @@ FROM Song s
 JOIN Album al ON al.AlbumId = s.AlbumId
 JOIN Artist ar ON ar.ArtistId = s.ArtistId
 JOIN Genre g ON g.GenreId = s.GenreId
+;
